@@ -15,9 +15,12 @@
   </head>
   <body class="{{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
     {% include skipnav.html %}
+
     {% include header.html %}
+
     {% assign hero = page.hero %}
     {% include components/hero.html %}
+    
     {% if page.tagline and page.intro %}
     <section class="usa-grid usa-section">
       <div class="usa-width-one-third">
@@ -55,3 +58,7 @@
 
   </body>
 </html>
+
+
+
+
