@@ -2,13 +2,9 @@
 ---
 // This file should not be modified unless by an advanced user.
 
-
 // U.S. Web Design System setup
-// $font-path: '../uswds/fonts';
-// $image-path: '../uswds/img';
-
-// @import 'google-font'
-
+$font-path: '../uswds/fonts';
+$image-path: '../uswds/img';
 
 // Typography
 {% if site.data.theme.fonts.sans %}$font-sans: {{ site.data.theme.fonts.sans }};{% endif %}
