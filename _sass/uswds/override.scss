@@ -14,7 +14,6 @@ $font-serif:                 'Lora', serif;
 @include google-font(Big Shoulders Text, 100 200 300 400 500 600 700 800 900, light medium regular black bold extrabold semibold thin);
 @include google-font(Lora, 400 700, italic normal);
 
-
 // CDS 2.0 Colors
 
 // new
@@ -127,4 +126,10 @@ $color-visited:              #4C2C92;
 // $color-purple-light:         #BD5190;
 // $color-purple-lighter:       #F0AAD3;
 // $color-purple-lightest:      #FAE3F0;
+
+// Style overrides:
+
+.usa-banner-inner img {
+  opacity:.4;
+}
 
