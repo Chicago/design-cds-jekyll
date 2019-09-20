@@ -13,20 +13,30 @@
 
 .card-red {
   background: $color-star-red;
+  color: $color-white;
+}
+
+.card-flag-blue {
+  background: $color-flag-blue;
+  color: $color-gray;
 }
 
 .card-bahama-blue {
   background: $color-bahama-blue;
+  color: $color-gray-dark;
 }
 
 .card-malibu-blue {
   background: $color-malibu-blue;
+  color: $color-gray-warm-dark;
 }
 
 .card-lochmara-blue {
   background: $color-lochmara-blue;
+  color: $color-gray-warm-light;
 }
 
 .card-cornflower-blue {
   background: $color-cornflower-blue;
+  color: $color-black-light;
 }
