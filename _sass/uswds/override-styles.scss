@@ -5,13 +5,14 @@
   opacity:.33;
 }
 
-.card-img-top {
+.card-img-top .seal {
   height: auto;
   margin: auto;
   width: auto;
   min-height:100%;
   min-width: 100%;
   object-fit: contain;
+  vertical-align: text-top;
 }
 
 .card-red {
