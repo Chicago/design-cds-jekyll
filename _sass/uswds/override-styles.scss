@@ -9,6 +9,9 @@
   height: auto;
   margin: auto;
   width: auto;
+  min-height:100%;
+  min-width: 100%;
+  object-fit: cover;
 }
 
 .card-red {
