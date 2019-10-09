@@ -5,12 +5,23 @@
   opacity:.33;
 }
 
+
+// Seal card styles
+
 .card-img-top-seal {
   height: auto;
   margin: auto;
   width: auto;
   vertical-align: text-top;
 }
+
+.card-body-seal {
+  display: float;
+  margin: 2em;
+  width: auto;
+  vertical-align: text-top;
+}
+
 
 .card-red {
   background: $color-star-red;
