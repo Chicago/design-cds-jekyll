@@ -5,17 +5,14 @@
   opacity:.33;
 }
 
-.card {
-
-  .card-img-top .seal {
-    height: auto;
-    margin: auto;
-    width: auto;
-    min-height:100%;
-    min-width: 100%;
-    object-fit: scale-down;
-    vertical-align: text-top;
-  }
+.card-img-top-seal {
+  height: auto;
+  margin: auto;
+  width: auto;
+  min-height:100%;
+  min-width: 100%;
+  object-fit: scale-down;
+  vertical-align: text-top;
 }
 
 .card-red {
