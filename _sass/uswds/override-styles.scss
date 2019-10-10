@@ -1,0 +1,79 @@
+// Include these style overrides after uswds.scss for them to be later in the cascade.
+
+.usa-banner-inner img {
+  margin-right:.3em;
+  opacity:.33;
+}
+
+
+// Seal card styles
+
+.card-img-top-seal {
+  height: auto;
+  margin: auto;
+  width: auto;
+  vertical-align: text-top;
+}
+
+.card-body-seal {
+  margin: 0 2em 1em 2em;
+  width: auto;
+  text-align: center;
+  vertical-align: text-top;
+}
+
+// design.chicago.gov home page card styles
+
+.card-img-top-seal {
+  height: auto;
+  margin: auto;
+  width: auto;
+  vertical-align: text-top;
+}
+
+.card-body-seal {
+  margin: 0 2em 1em 2em;
+  width: auto;
+  text-align: center;
+  vertical-align: text-top;
+}
+
+// d.c.gov home page color styles
+
+.card-red {
+  background: $color-star-red;
+  color: $color-white;
+}
+
+.card-flag-blue {
+  background: $color-flag-blue;
+  color: $color-gray-dark;
+}
+
+.card-bahama-blue {
+  background: $color-bahama-blue;
+  color: $color-gray-lightest;
+}
+
+.card-malibu-blue {
+  background: $color-malibu-blue;
+  color: $color-gray-lightest;
+}
+
+.card-lochmara-blue {
+  background: $color-lochmara-blue;
+  color: $color-gray-warm-light;
+}
+
+.card-cornflower-blue {
+  background: $color-cornflower-blue;
+  color: $color-black-light;
+}
+
+//the color swatch on a chicago design system color card in the basics area of the site.
+.card-color-swatch {
+  height:100%;
+  width:100%;
+  min-height:144px;
+  min-width:144px;
+}
