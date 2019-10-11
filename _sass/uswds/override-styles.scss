@@ -5,7 +5,6 @@
   opacity:.33;
 }
 
-
 // Seal card styles
 
 .card-img-top-seal {
@@ -39,6 +38,10 @@
 }
 
 // d.c.gov home page color styles
+
+.card-home .card-body .card-title {
+  text-transform: uppercase;
+}
 
 .card-red {
   background: $color-star-red;
